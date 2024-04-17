@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "My browser extension",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.interactionstation.wdka.hro.nl/deface-2/*"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ]
+}
